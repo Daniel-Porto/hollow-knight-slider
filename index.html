@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hallownest</title>
+  <link rel="shortcut icon" href="src/imagens/icon.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img src="src/imagens/icon.png" alt="icone-HK" class="icone">
+    <h1 class="titulo">Hallownest</h1>
+  </header>
+
+  <main class="hollow-slider">
+    <button id="btn-voltar" class="btn-seta btn-voltar">
+      <img src="src/imagens/seta.png" alt="seta-voltar">
+    </button>
+
+    <ul class="lista-hallownest">
+      <li class="cartao selecionado fundo-1">
+        <div class="informacoes">
+          <h2 class="nome">O Cavaleiro</h2>
+          <p class="vida">HP 600</p>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/hollow-knight.png" alt="O-Cavaleiro" class="imagem-hallownest">
+        </div>
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">O Cavaleiro é um Receptáculo nascido dos seres superiores: Rei Pálido e Dama Branca, com Vazio dentro de sua carapaça.</p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-2">
+        <div class="informacoes">
+          <h2 class="nome">Hornet</h2>
+          <p class="vida">HP 800</p>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/hornet.png" alt="Hornet" class="imagem-hallownest">
+        </div>
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">Criado no Ninho Profundo pelos tecelões, Hornet sobreviveu à infecção e à queda do reino. Ela vagueia por suas ruínas, perseguindo viajantes que tentariam profaná-las, mas também para proteger o lacre do Ovo Negro.</p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3">
+        <div class="informacoes">
+          <h2 class="nome">Grimm</h2>
+          <p class="vida">HP 1400</p>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/grimm.png" alt="Grimm" class="imagem-hallownest">
+        </div>
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">Grimm e sua trupe viajam do reino do pesadelo para onde quer que a lanterna do pesadelo tenha sido acesa por acólitos. Eles juntam Chamas do Pesadelo de terras arruinadas para alimentar o sinistro ser escravizador da Trupe, o Coração do Pesadelo.</p>
+        </div>
+      </li>
+
+    </ul>
+
+    <button id="btn-avancar" class="btn-seta btn-avancar">
+      <img src="src/imagens/seta.png" alt="seta-avancar">
+    </button>
+
+  </main>
+  <script src="/src/js/index.js"></script>
+</body>
+
+</html>
